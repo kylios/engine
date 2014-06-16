@@ -2,12 +2,14 @@ part of types;
 
 abstract class Movable {
 
-    ControlComponent controlComponent;
+    ControlComponent get controlComponent;
 
-    double x;
-    double y;
-    double width;
-    double height;
+    double get x;
+    double get y;
+    double get width;
+    double get height;
+
+    void setControlComponent(ControlComponent controlComponent);
 
     void update(Scene world, DateTime prev, DateTime cur) =>
             this.controlComponent.update(world, this, prev, cur);

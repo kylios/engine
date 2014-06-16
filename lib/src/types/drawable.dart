@@ -2,7 +2,8 @@ part of types;
 
 abstract class Drawable {
 
-    DrawingComponent drawingComponent;
+    void setDrawingComponent(DrawingComponent drawingComponent);
+    DrawingComponent get drawingComponent;
 
     void draw(CanvasRenderingContext2D context) => this.drawingComponent.update(context, this);
 }
