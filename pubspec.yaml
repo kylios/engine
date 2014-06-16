@@ -1,2 +1,5 @@
 name: engine
-description: A pub package 
+version: 0.0.1
+author: Kyle Racette
+description: A pub package
+homepage: https://github.com/morendi/engine
