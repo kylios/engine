@@ -4,10 +4,10 @@ abstract class Movable {
 
     ControlComponent get controlComponent;
 
-    double get x;
-    double get y;
-    double get width;
-    double get height;
+    double x;
+    double y;
+    double width;
+    double height;
 
     void setControlComponent(ControlComponent controlComponent);
 
