@@ -1,0 +1,10 @@
+*/packages
+packages
+.build
+sftp-config.json
+web/beer_run.dart.precompiled.js
+.buildlogsettings
+*.js
+*.js.map
+*.js.deps
+pubspec.lock
