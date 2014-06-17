@@ -8,6 +8,6 @@ abstract class Scene extends Actor {
 
     void start();
     void stop();
-    void update(Scene world, DateTime prev, DateTime cur);
+    void update(DateTime prev, DateTime cur);
     void draw(CanvasRenderingContext2D context);
 }
