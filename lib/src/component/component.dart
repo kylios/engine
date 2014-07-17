@@ -1,14 +1,6 @@
 part of component;
 
-abstract class Component extends Actor {
+abstract class Component<T> {
 
-    Actor _currentActor;
-    Actor get currentActor => this._currentActor;
-
-    Component attach(Actor cur) {
-        this._currentActor = cur;
-        return this;
-    }
-
-    void update(Scene world, DateTime prev, DateTime cur);
+    void update(T a, DateTime prev, DateTime cur);
 }

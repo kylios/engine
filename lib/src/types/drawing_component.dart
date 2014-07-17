@@ -1,6 +1,7 @@
 part of types;
 
-abstract class DrawingComponent {
+class DrawingComponent {
 
-    void update(CanvasRenderingContext2D context, Drawable a);
+    void update(CanvasRenderingContext2D context, Drawable a) =>
+            context.drawImageScaled(a.image, a.x, a.y, a.width, a.height);
 }

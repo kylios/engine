@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/floppy_horse.css">
+    <title>Floppy Horse</title>
+  </head>
+ 
+  <body>   
+    
+    <h1>Floppy Horse</h1>
+        
+    <div id="num_squares_id"></div>
+    <div id="sample_container_id">
+      <canvas width="640" height="480" id="canvas"></canvas>
+    </div>
+
+    <script type="application/dart" src="floppy_horse.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
