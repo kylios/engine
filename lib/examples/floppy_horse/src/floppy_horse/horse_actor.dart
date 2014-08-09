@@ -1,6 +1,6 @@
 part of floppy_horse;
 
-class HorseActor extends ComponentActor with Drawable, PhysicsActor {
+class HorseActor extends ComponentActor with PhysicsActor implements ImageDrawable {
 
     ImageAnimation _img;
 
@@ -17,5 +17,8 @@ class HorseActor extends ComponentActor with Drawable, PhysicsActor {
     set drawingComponent(DrawingComponent d) => this._drawingComponent = d;
     DrawingComponent get drawingComponent => this._drawingComponent;
 
+    void draw(CanvasRenderingContext2D c) {
+        if (this.drawingComponent != null) this.drawingComponent.update(c, this);
+    }
 }
 

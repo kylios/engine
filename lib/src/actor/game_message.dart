@@ -5,5 +5,6 @@ class GameMessage {
 
     final Actor sender;
 
-    GameMessage(this.sender);
+    GameMessage() : this.from(null);
+    GameMessage.from(this.sender);
 }

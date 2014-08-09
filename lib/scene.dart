@@ -1,6 +1,7 @@
 library scene;
 
 import 'dart:html';
+import 'dart:async';
 
 import 'package:engine/actor.dart';
 import 'package:engine/types.dart';

@@ -2,6 +2,7 @@ library floppy_horse;
 
 import 'dart:html';
 import 'dart:async';
+import 'dart:math';
 
 import 'package:engine/actor.dart';
 import 'package:engine/component.dart';
@@ -17,3 +18,5 @@ part 'src/floppy_horse/horse_scene.dart';
 part 'src/floppy_horse/background_actor.dart';
 part 'src/floppy_horse/physics_component.dart';
 part 'src/floppy_horse/jump_component.dart';
+part 'src/floppy_horse/layer_actor.dart';
+part 'src/floppy_horse/layer_move_component.dart';

@@ -22,6 +22,9 @@ void main() {
               , new ImageAnimationFrame(
                       img: new ImageElement(src: "assets/img/floppy_horse3.png"),
                       duration: 0.1)
+              , new ImageAnimationFrame(
+                      img: new ImageElement(src: "assets/img/floppy_horse2.png"),
+                      duration: 0.1)
             ]);
 
     _horseScene.start();
